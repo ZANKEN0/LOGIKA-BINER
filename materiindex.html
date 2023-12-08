@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>logika informatika</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <!-- my css -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="teamhtml" href="teamindex.html"/>
+  </head>
+  <body>
+    <section id="Beranda">
+    <!-- navbar awal -->
+    <nav class="navbar fixed-top navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><strong>Logika Informatika Biner</strong></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse-navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="homeindex.html">BERANDA</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="materiindex.html">MATERI</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="teamindex.html">OUR TEAM</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    </section>
+    <!-- navabar akhir -->
+    <!-- materi awal -->
+    <div class="awal-md-3">
+      <h1><strong> LOGIKA INFORMATIKA BINER </strong></h1>
+      <img src="img/operasi_aritmatika_dan_logik.png" width="50%" height="50%" .bg-body />
+    </div>
+    <!-- gelombang -->
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#70cce1" fill-opacity="1" d="M0,256L48,261.3C96,267,192,277,288,266.7C384,256,480,224,576,213.3C672,203,768,213,864,192C960,171,1056,117,1152,96C1248,75,1344,85,1392,90.7L1440,96L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+    <!-- akhir gelombang -->
+    <!-- awal2 -->
+    <!-- awal pengertian biner -->
+    <div class="awal2-md-4">
+      <div class="daftarisi">
+        <nav>
+         <h6><strong>DAFTAR ISI</strong></h6>
+          <ol>
+            <a href="#pengertian desimal dan biner"> PENGERTIAN DESIMAL DAN BINER</a>
+            <li><a href="#biner to desimal">BINER KE DESIMAL</a></li>
+            <li><a href="#desimal to biner">DESIMAL KE BINER</a></li>
+            <a href="#aritmatika bilangan biner">Aritmatika Bilangan Biner</a>
+            <li><a href="#penjumlahan">Penjumlahan</a></li>
+            <li><a href="#pengurangan">Pengurangan</a></li>
+            <li><a href="#perkalian">Perkalian</a></li>
+            <li><a href="#pembagian">Pembagian</a></li>
+          </ol>
+         </nav>
+      </div>
+        <section id="pengertian desimal dan biner">
+          <h2><strong>Pengertian Desimal dan Biner</strong></h2>
+          <p>
+           <strong>Bilangan Desimal</strong> adalah sistem bilangan yang menggunakan dasar 10 yang artinya dalam sistem ini setiap digit dalam suatu angka dapat mengambil salah satu dari 10 nilai seperti: 0, 1, 2, 3, 4, 5, 6, 7, 8, atau 9. Sistem bilangan desimal juga dikenal sebagai sistem bilangan basis 10, Bilangan desimal juga merupakan sistem bilangan yang paling banyak kita temukan di kehidupan kita sehari hari.</p>
+
+             <p>Contoh bilangan desimal:</p>
+             <li>10 (1 di tempat puluhan dan 0 di tempat satuan atau juga bisa di sebut 1 memiliki bobot 10 dan 0 memiliki bobot 1)
+             </li>
+             <li>123 (1 di tempat ratusan = Bobot 100, 2 di tempat puluhan = Bobot 10, dan 3 di tempat satuan = Bobot 1)
+             </li>
+             <li>4567 (4 di tempat ribuan = Bobot 1000, 5 di tempat ratusan = Bobot 100, 6 di tempat puluhan = Bobot 10, dan 7 di tempat satuan = Bobot 1)
+             </li>
+          <P>Secara umum bobot dalam sistem desimal untuk setiap posisi adalah sebagai berikut:</P>
+           <p>……  10<sup>4</sup>  10<sup>3</sup>  10<sup>2</sup>  10<sup>1</sup>  10<sup>0</sup> . 10<sup>-1</sup>  10<sup>-2</sup>  10<sup>-3</sup>  10<sup>-4</sup> ……… <P>titik yang berada di tengah dinamakan titik desimal.</P></p>
+          <p>
+           Sedangkan <strong>Bilangan Biner</strong> adalah sistem bilangan berbasis 2 karena memang hanya menggunakan 2 simbol yaitu angka 0 dan 1. Bilangan biner digunakan sebagai dasar untuk sistem bilangan yang berbasis digital.<br>
+            Perbandingan Bilangan Desimal dengan Biner : </p>
+       <!-- tabel perbandingan -->
+      <table border="1" class="Perbandingan">
+        <thead>
+            <tr>
+                <th>Bilangan Desimal</th>
+                <th>Bilangan Biner</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>0</td>
+                <td>0 0 0 0</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>0 0 0 1</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>0 0 1 0</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>0 0 1 1</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>0 1 0 0</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>0 1 0 1</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>0 1 1 0</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>0 1 1 1</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>1 0 0 0</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>1 0 0 1</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>1 0 1 0</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>1 0 1 1</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>1 1 0 0</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>1 1 0 1</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>1 1 1 0</td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td>1 1 1 1</td>
+            </tr>
+        </tbody>
+      </table>
+      </section>
+      <!-- akhir tabel perbandingan -->
+      <section id="biner to desimal">
+      <div class="biner-desimal">
+        <h3><strong>Konversi Biner Menjadi Desimal</strong></h3>
+        <p>……  2<sup>4</sup>  2<sup>3</sup>  2<sup>2</sup>  2<sup>1</sup>  2<sup>0</sup> . 2<sup>-1</sup>  2<sup>-2</sup>  2<sup>-3</sup>  2<sup>-4</sup> ……… <P>titik yang berada di tengah dinamakan titik Biner.</P></p>
+        <p><strong>Cara mengonversi bilangan biner ke desimal</strong> adalah dengan cara mengalikan satu persatu bilangan biner dengan 2 (basis bilangan biner) kemudian dipangkat 0, pangkat 1 dan seterusnya sesuai dengan banyaknya bilangan biner yang akan di konversi.</p>
+
+        <p>Jangan lupa, perhitungannya dimulai dari bilangan biner yang paling kanan.</p>
+        Contoh 1 : Tentukan nilai desimal dari biner 101101. <p>Jawab : (1x32) + (0x16) + (1x8) + (1x4) + (0x2) + (1x1) = 45</p><img src="img/biner-desimal.png">
+        <p>Contoh 2 : Ubahlah bilangan biner ke 00011 ke bilangan desimal!</p>
+        = (1x2)^0 + (1x2)^1 + (0x2)^2 + (0x2)^3 + (0x2)^4</p>
+        = 1 + 2 + 0 + 0 + 0</p>
+        = 3</p>
+      </div>
+      </section>
+      <!--  -->
+      <section id="desimal to biner">
+      <div class="desimal-biner">
+        <h3> <strong>Konversi Desimal Menjadi Biner</strong></h3>
+         <p> Cara mengonversi bilangan desimal ke biner adalah dengan cara membagi bilangan desimal dengan 2 (basis     bilangan biner).</p>
+          Kemudian, sisa hasil bagi dari setiap pembagian disimpan sebagai bit-bit bilangan biner.<p>
+          Nilai konversinya adalah urutan sisa hasil bagi dari yang paling akhir.</p>
+          <ul>contoh : Membagi bilangan desimal dengan nilai 2 </ul><p>
+          <li>89 : 2 = 44	sisa 1</li>
+          <li>44 : 2 = 22	sisa 0</li>
+          <li>22 : 2 = 11	sisa 0</li>
+          <li>11 : 2 = 5  sisa 1</li>
+          <li>5   : 2 = 2 sisa 1</li>
+          <li>2   : 2 = 1 sisa 0</li>
+          <li>1  : 2 = 0 sisa 1</li>
+          Maka, bilangan biner dari desimal 89 adalah 1011001. cara ini merupakan cara yang paling mudah dalam konversi desimal ke biner.</p>
+      </p>
+      </section>
+      <!-- akhir pengertian biner -->
+      <!-- awal aritmatika biner -->
+      <section id="aritmatika bilangan biner">
+      <h3><strong>Aritmatika Bilangan Biner</strong></h3>
+      <p>Aritmatika Bilangan Binner merupakan beberapa operasi perhitungan yang terjadi dalam bilangan biner.<br>
+      Terdapat 4 operasi aritmatika pada bilangan biner, antara lain:</p>
+      <ol>
+        <li> Penjumlahan</li>
+        <li> pengurangan</li>
+        <li> perkalian</li>
+        <li> pembagian</li>
+      </ol>
+      </section>
+          <!-- penjumlahan -->
+          <section id="penjumlahan">
+          <h5>1. Penjumlahan Bilangan Biner</h5>
+          <p>
+            Dalam penjumlahan biner terdapat empat aturan dasar, antara lain:
+            <li>0 + 0 = 0</li>
+            <li>1 + 0 = 1</li>
+            <li>0 + 1 = 1</li>
+            <li>1 + 1 = 10 <strong>simpan 1 dan turunkan 0</strong></li>
+            Pada penjumlahan biasanya kita hanya melibatkan Carry in. Carry in adalah nilai Carry out yang akan dijumlahkan pada penjumlahan bilangan berikutnya. Aturan biner sebenarnya sama saja seperti desimal, hanya saja pada biner hanya memiliki bilangan 1 & 0. perhatikan gambar dibawah ini .
+            <P></P>
+            <img src="img/penjumlahan.png"/><p></p>
+            <strong>Penjelasan:</strong>
+            <ol>
+               Proses perhitungan dilakukan seperti penjumlahan biasa, yaitu masing-masing angka di jumlahkan,
+              <li>
+               Angka pertama bawah dari sebelah kanan yaitu angka 1 di tambah dengan angka di atasnya yaitu 1   hasilnya adalah 10 (1 merupakan carry out dari penjumlahan sebelah kanan dan akan di jumlahkan pada penjumlahan bilangan berikut nya dan 0 akan turun kebawah).</li>
+              <li> lalu penjumlahan kedua yaitu 1 ditambah 0 dan carry dari bilangan sebelum nya yaitu 1 jadi 1 + 0 + 1 = 10.</li>
+              <li> jadi hasil 11 + 1 adalah 100 (yang dalam desimal adalah 4).</li>
+            </ol>
+          </p>
+          Jadi kalau kita menjumlahkan dalam bilangan biner seperti 1 + 1 = 10 (angka biner untuk nilai 2).,maka yang dituliskan adalah 0 nya sedangkan 1 adalah carry out. Begitu juga jika kita menjumlahkan angka 1 + 1+ 1 = 11 (angka biner untuk nilai 3), maka yang kita tuliskan adalah 1 sedangkan 1 nya akan menjadi carry out.<p></p>
+          </section>
+          <!-- pengurangan -->
+          <section id="pengurangan">
+          <h5>2. Pengurangan Bilangan Biner</h5>
+          <p>
+            Dalam pengurangan biner terdapat empat aturan dasar, antara lain:
+            <li>0 - 0 = 0</li>
+            <li>1 - 0 = 1</li>
+            <li>1 - 1 = 0</li>
+            <li>10 - 1 = 1 <strong>borrow atau meminjam dari angka yang lebih besar</strong></li>
+            Borrow yang kami maksud disini adalah suatu pinjaman satu digit angka dari kolom sebelah yang mempunyai nilai tinggi agar nantinya hasil dari pengurangan akan mencukupi. 
+            <P></P>
+            <img src="img/pengurangan.png"/><br>
+            <strong>Penjelasan:</strong>
+            <ol>
+              Proses perhitungan dilakukan seperti pengurangan biasa, yaitu masing-masing angka di kurangi,
+              <li>Angka pertama atas dari sebelah kanan yaitu angka 1 di dikurang dengan angka di bawah yaitu 1 hasilnya adalah 0.</li>
+              <li>lalu pengurangan kedua yaitu 0 dikurang 1 (karena tidak bisa di kurangi maka dilakukan borrow ke sebelah kiri menjadi 10 - 1 = 1).</li>
+              <li>jadi hasil 101 + 011 adalah 10 (yang dalam desimal adalah 2).</li>
+            </ol>
+          </p>
+          </section>
+          <!-- perkalian -->
+          <section id="perkalian">
+          <h5>3. Perkalian Bilangan Biner</h5>
+          <p>
+            Dalam perkalian biner terdapat empat aturan dasar, antara lain:
+            <li>0 x 0 = 0</li>
+            <li>1 x 0 = 0</li>
+            <li>0 x 1 = 0</li>
+            <li>1 x 1 = 1</li>
+            Seperti cara perkalian bilangan desimal yang kalian kenal sehari-hari,yang menjadi beda adalah nilai yang dihasilkan adalah angka 1 dan juga 0 saja.
+            <P></P>
+            <img src="img/perkalian.png"/>
+          </p>
+          <strong>Penjelasan:</strong>
+          <ol>
+            Proses perhitungan dilakukan seperti mengalikan biasa, yaitu masing-masing angka di bawah yang diawali dari sebelah kanan dikalikan dengan seluruh angka yang ada di atasnya, prosesnya yaitu:
+            <li>Angka pertama bawah dari sebelah kanan yaitu angka 1 dikalikan dengan seluruh angka di atas yaitu 11 hasilnya adalah 11</li>
+            <li>Angka kedua bawah dari sebelah kanan yaitu angka 1 dikalikan dengan seluruh angka di atas yaitu 11 hasilnya adalah 11</li>
+            <li>Selanjutnya adalah proses menjumlahkan seperti aturan menjumlahkan bilangan biner yang sudah di jelaskan sebelum nya. Maka hasilnya adalah 1001.</li>
+          </ol>
+          </section>
+         <!-- pembagian -->
+        <section id="pembagian">
+          <h5>4. Pembagian Bilangan Biner</h5>
+          <p>
+          Seperti cara pembagian bilangan desimal yang kalian kenal sehari-hari, yang menjadi beda adalah nilai yang dihasilkan adalah angka 1 dan juga 0 saja.
+          <P></P>
+          <img src="img/pembagian biner.png"/>
+          </p>
+          <strong>Penjelasan</strong>
+          <ol>
+          Proses perhitungan Pembagian mengambil digit dari sebelah kiri:
+          <li>Karena 2 digit dari kiri = 11 (sama dengan angka 3 dalam decimal) lebih besar dari 10 (sama dengan angka 2 dalam decimal), kemudian bagi dengan digit 10 dan simpan angka pengalinya yaitu 1 lalu lakukan peroses pengurangan.</li>
+          <li>karena sisanya pengurangannya dapat dibagi 10, maka ulangi langkah pertama dan kita dapatkan hasil nya adalah 11.</li>
+          </ol>
+        </section>
+       </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#70cce1" fill-opacity="1" d="M0,320L48,320C96,320,192,320,288,309.3C384,299,480,277,576,240C672,203,768,149,864,144C960,139,1056,181,1152,170.7C1248,160,1344,96,1392,64L1440,32L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+    <!-- selesai materi aritmatika biner -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,89 @@
+body {
+  background-color: whitesmoke;
+  text-align: justify;
+}
+.collapse-navbar-collapse {
+  text-align: end;
+}
+.awal img {
+  margin-top: 30px;
+}
+/* awal 2 */
+.daftarisi nav {
+  width: 90%;
+  background-color: #f9f9f9;
+  border: 2px solid #aaa;
+  padding: 20px;
+}
+.daftarisi a {
+  color: black;
+  text-decoration: none;
+}
+.awal2-md-4 img {
+  border: 1px solid;
+  height: auto;
+  max-width: 100%;
+}
+.awal2-md-4 h5 {
+  color: rgb(46, 134, 134);
+  font-weight: bold;
+}
+
+.awal-md-3 {
+  padding-top: 100px;
+  padding-bottom: 20px;
+  text-align: center;
+  background-color: #70cce1;
+}
+.awal2-md-4 {
+  margin-top: 30px;
+  margin-left: 1cm;
+  margin-right: 2cm;
+}
+.desimal-biner li {
+  margin-left: 50px;
+}
+li {
+  margin-left: 20px;
+}
+table {
+  margin: 30px;
+  width: 40%;
+  border-collapse: collapse;
+  background-color: rgb(190, 190, 190);
+}
+th,
+td {
+  border: 2px solid black;
+  padding: 5px;
+  text-align: center;
+}
+.col-md-4 {
+  margin-bottom: 30px;
+}
+.col {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+section {
+  padding-top: 60px;
+}
+#Beranda {
+  padding: none;
+}
+/* foto */
+#our-team {
+  background-color: #70cce1;
+}
+.card-title {
+  font-weight: bold;
+  text-align: center;
+}
+.card-body img {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.logomedsos {
+  text-align: center;
+}
+/* footer */
